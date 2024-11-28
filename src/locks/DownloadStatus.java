@@ -7,7 +7,6 @@ public class DownloadStatus {
 
     private int totalBytes;
     private Lock lock = new ReentrantLock();
-    String a = null;
 
 
     public int getTotalBytes() {
